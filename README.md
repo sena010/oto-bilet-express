@@ -5,6 +5,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+npm install react-datepicker --save
+
+npm install date-fns --save
+
+npm install react-icons --save
+
+npm install react-toastify --save
 npm run dev
 # or
 yarn dev
