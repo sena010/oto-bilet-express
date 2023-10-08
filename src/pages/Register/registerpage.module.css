@@ -1,0 +1,102 @@
+.main {
+    background-color: #F7F1F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 40px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.radioGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radioGroup label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radioGroup input[type="radio"] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.container input {
+    width: 200px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 2px;
+    background: #D9D9D9;
+}
+
+.register {
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #2E922E;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.register:hover {
+    border: none;
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.inputField {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registerButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registerButton:hover {
+    background-color: #45a049;
+}

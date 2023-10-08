@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.querybox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.voyagesbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.acenty {
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.route {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.price {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.selectbox {
+    height: 40px;
+    margin-right: 10px;
+    border: 4px;
+    background-color: #f9f9f9;
+}
+
+.datepicker {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.buttoncontainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+.buttoncontainer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
